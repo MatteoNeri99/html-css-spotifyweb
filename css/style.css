@@ -2,48 +2,174 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
+
+  /*generali*/
+
+  a{
+    text-decoration: none;
+    color:#76787d;
+  }
+
+  article{
+    width: calc(85vw / 6);
+    margin-right:1rem;
+    text-align: center;
+  }
+
+  article img{
+    width: 100%;
+ }
+
+  .display-flex{
+    display: flex;
+  }
+
+  /*generali*/
+
+  /*body*/
 body{
     position: relative;
 }
- /*header*/
-header{
-    width: 18vw;
+
+  /*body*/
+  /*header*/
+
+
+ header{
+    width: 15vw;
     height: 100vh;
     z-index: 1;
-    background-color: black;
+    background-color: #080b12;
     position: fixed;
     left: 0;
     top:0;
-    
-
 }
- /*header*/
+
+
+  /*header*/
 
   /*main*/
 
+  main{
+   width: 85vw;
+   position: absolute;
+   right: 0;
+   top: 10vh;
+   background-color: #141922;
+   padding-bottom: 10vh;
+  }
+
   /*upgrade*/
 
-.upgrade{
+ .upgrade{
     width: 100vw;
     height: 10vh;
     z-index: 0;
-    background-color:black;
+    background-color:#080b12;
     position: fixed;
     top: 0;
     right: 0;
 }
 
-/*footer*/
+  /*upgrade*/
+
+  /*nav-main*/
+
+  nav ul{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    list-style:none;
+    margin-top: 2rem;
+    
+}
+
+main nav ul li{
+    margin-left: 3rem;
+    text-transform:uppercase ;
+}
+
+  /*recenti*/
+ .recenti{
+    margin:2rem 1rem 5rem 2rem;
+    color: white;
+ }
+ .recenti h2{
+    font-size: 2rem;
+    margin-bottom:3rem ;
+ }
+ .recenti p{
+    color: #76787d;
+ }
+
+ .recenti h3{
+   
+ }
+
+  /*recenti*/
+
+  /*per te*/
+
+  .per-te{
+    margin:2rem 1rem 5rem 2rem;
+    color: white;
+  }
+
+  .per-te h2{
+    font-size: 2rem;
+    margin-bottom:1rem ;
+ }
+ .per-te p {
+    margin-bottom: 3rem;
+    color: #76787d;
+ }
+ 
+
+  /*per te*/
+
+  /*popolari*/
+
+  .popolari{
+    margin:2rem 1rem 5rem 2rem;
+    color: white;
+  }
+
+  .popolari h2{
+        font-size: 2rem;
+        margin-bottom:1rem ;
+  }
+
+  .popolari p {
+    margin-bottom: 3rem;
+    color: #76787d;
+ }
+
+ .popolari img{
+    border-radius: 50%;
+ }
+
+
+  /*popolari*/
+
+
+ /*main*/
+
+ /*footer*/
+
+
 footer{
     width: 100vw;
     height: 10vh;
     z-index: 2;
-    background-color: grey;
+    background-color: #282828;
     position: fixed;
     bottom:0;
     right: 0;
 }
+
+ /*footer*/
 
 
 /*media query*/
