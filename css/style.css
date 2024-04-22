@@ -45,8 +45,43 @@ body{
     position: fixed;
     left: 0;
     top:0;
+    padding: 1rem;
 }
 
+.logo-small{
+    display: none;
+}
+
+.logo{
+    margin-bottom: 2rem;
+}
+
+  /*nav header*/
+
+  
+   nav>img{
+    display: none;
+   }
+
+
+   .home,
+   .cerca,
+   .libreria{
+    color: #76787d; ;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+   }
+   
+   header nav div>img {
+    width: 25%;
+   }
+
+   header nav  p{
+      align-self: center;
+      margin-left: .5rem;
+   }
+
+  /*nav header*/
 
   /*header*/
 
