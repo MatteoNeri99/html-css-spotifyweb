@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+ /*header*/
+header{
+    width: 18vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top:0;
+    
+
+}
+ /*header*/
+
+  /*main*/
+
+  /*upgrade*/
+
+.upgrade{
+    width: 100vw;
+    height: 10vh;
+    z-index: 0;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/*footer*/
+footer{
+    width: 100vw;
+    height: 10vh;
+    z-index: 2;
+    background-color: grey;
+    position: fixed;
+    bottom:0;
+    right: 0;
+}
+
+
+/*media query*/
+
+@media screen and (max-widht:1199px) {
+
+    
+}
