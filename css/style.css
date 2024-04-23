@@ -294,7 +294,47 @@ footer{
     background-color: #282828;
 }
 
-  /*footer*/
+/*canzone-in-riproduzione*/
+.canzone-in-riproduzione{
+  width: 15%;
+  height: 10vh;
+  align-items: center;
+}
+.container-riproduzione{
+  margin-left: 1rem;
+}
+.container-riproduzione p{
+  color: #76787d;
+  font-size: .6rem;
+  font-weight: bold;
+}
+
+.container-riproduzione h5{
+  color:white;
+}
+.container-album{
+  margin-left: 1rem;
+  align-self: center;
+}
+
+.container-riproduzione img{
+  width: 60px;
+ 
+}
+.container-font{
+  color: #76787d;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.fa-heart{
+  margin-right: 1rem;
+}
+.container-font{
+  margin-left: 4rem;
+  align-self: center;
+}
+
+/*canzone-in-riproduzione*/
 
  /*footer*/
 
