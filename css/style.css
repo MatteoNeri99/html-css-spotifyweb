@@ -30,6 +30,10 @@
     display: flex;
   }
 
+  ul li {
+    list-style: none;
+  }
+
 
   /*generali*/
 
@@ -141,7 +145,7 @@ body{
 
   }
 
-  .conteiner hr{
+  .container hr{
     width: 100%;
   }
 
@@ -292,12 +296,15 @@ footer{
     width: 100vw;
     height:10vh;
     background-color: #282828;
+    justify-content: space-between;
+    align-items: center;
+  
+
 }
 
 /*canzone-in-riproduzione*/
 .canzone-in-riproduzione{
   width: 15%;
-  height: 10vh;
   align-items: center;
 }
 .container-riproduzione{
@@ -334,12 +341,77 @@ footer{
   align-self: center;
 }
 
-/*canzone-in-riproduzione*/
+ /*canzone-in-riproduzione*/
+
+ /*riproduttore*/
+
+.riproduttore{
+  width: 70%;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+ ul i{
+  color: white;
+  font-size: 1.4rem;
+  margin-right: 2rem;
+  margin-top: .3rem;
+ }
+
+ .fa-circle-play{
+  font-size: 2rem;
+  margin-top: 0rem;
+ }
+
+ .barra-riproduttore{
+  width: 50%;
+ }
+
+ .barra-riproduttore *{
+  margin-right: 1rem;
+  margin-top: 1rem;
+ }
+
+ .barra-riproduttore hr{
+  width:100%;
+  height: 5px;
+  margin-top:calc(1rem + 7px);
+  background-color: #76787d;
+  border-radius: 20px;
+
+ }
+
+ /*riproduttore*/
+
+ /*volume*/
+ .volume{
+  width: 15%;
+  margin-right: 1rem;
+ }
+ .volume i{
+  font-size: .8rem;
+ }
+
+ .hr-volume{
+  width: 50%;
+ }
+ 
+ .volume hr{
+  width: 100%;
+  height: 5px;
+  align-self: center;
+  margin-top: .4rem;
+  background-color: #76787d;
+  border-radius: 20px;
+ }
+
+ /*volume*/
 
  /*footer*/
 
 
-/*media query*/
+ /*media query*/
 
 @media screen and (max-widht:1199px) {
 
