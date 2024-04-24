@@ -1,9 +1,9 @@
-*{
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-}
+  }
 
   /*generali*/
 
@@ -45,25 +45,25 @@
   /*hover*/
 
   /*body*/
-body{
+ body{
     position: relative;
-}
+  }
 
   /*body*/
   /*header*/
 
 
- header{
+  header{
     width: 250px;
     height: 90vh;
     background-color: #080b12;
   }
 
-.logo-small{
+ .logo-small{
     display: none;
   }
 
-.logo{
+  .logo{
     margin-bottom: 2rem;
     width: 70%;
     margin-top: 1rem;
@@ -224,18 +224,18 @@ body{
     right: 0;
   }
 
-.upgrade button{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background-color: transparent;
-  color: white;
-  text-transform: uppercase;
-  width: 240px;
-  height: 45px;
-  border-color: white;
-  border-radius: 20px;
-}
+  .upgrade button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    width: 240px;
+    height: 45px;
+    border-color: white;
+    border-radius: 20px;
+  }
 
 
   /*upgrade*/
@@ -248,22 +248,23 @@ body{
     display: flex;
     list-style:none;
     margin-top: 2rem;
+    font-size: 1rem;
     
   }
 
-main nav ul li{
+  main nav ul li{
     margin-left: 3rem;
     text-transform:uppercase ;
   }
 
-main nav hr{
+  main nav hr{
   background-color:#adff2f ;
   width: 50px;
   height: 4px;
   margin: 0 auto;
   margin-top: .5rem;
   border-radius: 20px;
- }
+  }
 
   /*recenti*/
  .recenti{
@@ -366,158 +367,160 @@ main nav hr{
  /*footer*/
 
 
-footer{
+  footer{
     width: 100vw;
     height:10vh;
     background-color: #282828;
-    justify-content: space-between;
     align-items: center;
-  
+    justify-content: space-between;
 
   }
 
-/*canzone-in-riproduzione*/
-.canzone-in-riproduzione{
-  width: 15%;
-  align-items: center;
-}
-.container-riproduzione{
+  /*canzone-in-riproduzione*/
+  .canzone-in-riproduzione{
+    width: 15%;
+    align-items: center;
+  }
+  .container-riproduzione{
   margin-left: 1rem;
-}
-.container-riproduzione p{
-  color: #76787d;
-  font-size: .6rem;
-  font-weight: bold;
-}
+ }
+ .container-riproduzione p{
+    color: #76787d;
+    font-size: .6rem;
+    font-weight: bold;
+  }
 
-.container-riproduzione h5{
-  color:white;
-}
-.container-album{
-  margin-left: 1rem;
-  align-self: center;
-}
+  .container-riproduzione h5{
+    color:white;
+  }
+ .container-album{
+    margin-left: 1rem;
+    align-self: center;
+  }
 
-.container-riproduzione img{
-  width: 60px;
- 
-}
-.container-font{
-  color: #76787d;
-  font-size: 1.5rem;
-  margin-left: 2rem;
-}
-.fa-heart{
-  margin-right: 1rem;
-}
-.container-font{
-  margin-left: 4rem;
-  align-self: center;
-}
+  .container-riproduzione img{
+    width: 60px;
+  }
+
+  .container-font{
+    color: #76787d;
+    font-size: 1rem;
+    margin-left: 5rem;
+  }
+
+  .fa-heart{
+    margin-right: 1rem;
+  }
+  .container-font{
+    margin-left: 1rem;
+    align-self: center;
+  }
 
  /*canzone-in-riproduzione*/
 
  /*riproduttore*/
 
-.riproduttore{
-  width: 70%;
-  flex-direction: column;
-  align-items: center;
-}
+ .riproduttore{
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+  }
 
 
- ul i{
-  color: white;
-  font-size: 1.4rem;
-  margin-right: 2rem;
-  margin-top: .3rem;
- }
+ .riproduttore ul i{
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    margin-top: .3rem;
+  }
+
+ .tasti-riproduzione{
+    width: 70%;
+  }
 
  .fa-circle-play{
-  font-size: 2rem;
-  margin-top: 0rem;
- }
+    font-size: 2rem;
+    margin-top: 0rem;
+  }
 
  .barra-riproduttore{
-  width: 50%;
- }
+    width: 100%;
+  }
 
  .barra-riproduttore p{
-  margin-right: 1rem;
-  margin-top: 1rem;
- }
-
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+ 
  .barra-musica{
-  width:100%;
-  height: 5px;
-  margin-top:calc(1rem + 7px);
-  background-color: #76787d;
-  border-radius: 20px;
-  margin-right: 1rem;
- }
-
+    width:100%;
+    height: 5px;
+    margin-top:calc(1rem + 7px);
+    background-color: #76787d;
+    border-radius: 20px;
+    margin-right: 1rem;
+  }
+ 
  .secondi-canzone{
-  width:20%;
-  height: 5px;
-  background-color: white;
-  border-radius: 20px;
- }
+    width:20%;
+    height: 5px;
+    background-color: white;
+    border-radius: 20px;
+  }
 
  /*riproduttore*/
 
  /*volume*/
  .volume-controllo{
-  width: 15%;
-  margin-right: 1rem;
- }
- .volume-controllo i{
-  font-size: .8rem;
- }
+    width: 15%;
+  }
 
- .volume{
-  width: 50%;
- }
+  .volume-controllo i{
+    font-size: .8rem;
+    color: white;
+    margin-right: 1rem;
+  }
  
  .barra-volume{
-  width: 100px;
-  height: 5px;
-  margin-top:calc((.8rem / 2) + 2.5px);
-  background-color: #76787d;
-  border-radius: 20px;
- }
+    width: 100px;
+    height: 5px;
+    margin-top:calc((.8rem / 2) + 2.5px);
+    background-color: #76787d;
+    border-radius: 20px;
+  }
 
- .volume-in-ascolto{
-  width:20%;
-  height: 5px;
-  margin-top: .4rem;
-  background-color:white;
-  border-radius: 20px;
- }
+  .volume-in-ascolto{
+    width:20%;
+    height: 5px;
+    margin-top: .4rem;
+    background-color:white;
+    border-radius: 20px;
+  }
 
  /*volume*/
 
  /*hover footer*/
   
-   .container-album p:hover{
-    text-decoration: underline;
-   }
+  .container-album p:hover{
+     text-decoration: underline;
+  }
 
-   .container-font i:hover{
-    color: white;
-   }
+  .container-font i:hover{
+     color: white;
+  }
 
-   .fa-circle-play:hover{
-    font-size: 2.2rem;
-   }
+  .fa-circle-play:hover{
+     font-size: 2.2rem;
+  }
 
-   .barra-musica:hover .secondi-canzone{
+  .barra-musica:hover .secondi-canzone{
       width: 40%;
      background-color:#adff2f;
-   }
+  }
 
-   .barra-volume:hover .volume-in-ascolto{
-    width: 30%;
-   background-color:#adff2f;
+  .barra-volume:hover .volume-in-ascolto{
+     width: 30%;
+     background-color:#adff2f;
  }
 
  /*hover footer*/
@@ -529,19 +532,31 @@ footer{
 
 
 
-@media screen and (max-width:992px){
+ @media screen and (max-width:992px){
   article{
     width: calc((100% / 4) - 1rem);
-    margin-right:1rem;
     flex-wrap: wrap;
     text-align: center;
+  }
+  main nav ul li{
+    margin-left: 1rem;
+    text-transform:uppercase ;
   }
 
   .article-container{
     flex-wrap: wrap;
 
   }
-}
+
+  main nav ul{
+    
+    font-size: 1rem;
+    display: flex;
+    list-style:none;
+    margin-top: 2rem;
+    
+  }
+ }
 
 @media screen and (max-width:768px){
   article{
@@ -555,6 +570,13 @@ footer{
     flex-wrap: wrap;
 
   }
+  .barra-volume{
+    width: 50px;
+    height: 5px;
+    margin-top:calc((.8rem / 2) + 2.5px);
+    background-color: #76787d;
+    border-radius: 20px;
+   }
 }
 
 
@@ -590,6 +612,21 @@ footer{
    .upgrade{
     width:calc(100% - 70px);
    }
+
+   .canzone-in-riproduzione{
+    width: 15%;
+    
+   }
+
+   .container-font{
+    flex-direction: column;
+   }
+
+   header{
+    justify-content: none;
+   }
+
+
 }
   
   
