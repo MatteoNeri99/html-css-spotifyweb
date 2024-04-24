@@ -7,6 +7,8 @@
 
   /*generali*/
 
+  .padding-left{}
+
   a{
     text-decoration: none;
     color:#76787d;
@@ -33,9 +35,16 @@
   ul li {
     list-style: none;
   }
-
+  
+  .margin-left{
+    margin-left: 1rem;
+  }
 
   /*generali*/
+
+  /*hover*/
+
+  /*hover*/
 
   /*body*/
 body{
@@ -49,21 +58,17 @@ body{
  header{
     width: 15%;
     height: 90vh;
-    padding: 1rem;
     background-color: #080b12;
-}
-
-
-
+  }
 
 .logo-small{
     display: none;
-}
+  }
 
 .logo{
     margin-bottom: 2rem;
     width: 70%;
-}
+  }
 
   /*nav header*/
   nav{
@@ -74,7 +79,7 @@ body{
   nav h3{
     color: white;
     text-transform:uppercase ;
-}
+  }
 
 
    nav>img{
@@ -87,6 +92,14 @@ body{
 
    header nav ul li{
     margin-top: 1rem;
+   }
+
+   .home hr{
+    background-color:#adff2f ;
+    width: 3px;
+    height: 40px;
+    padding:0;
+  
    }
 
 
@@ -191,7 +204,7 @@ body{
     position: fixed;
     top: 0;
     right: 0;
-}
+  }
 
 .upgrade button{
   position: absolute;
@@ -206,6 +219,7 @@ body{
   border-radius: 20px;
 }
 
+
   /*upgrade*/
 
   /*nav-main*/
@@ -217,12 +231,21 @@ body{
     list-style:none;
     margin-top: 2rem;
     
-}
+  }
 
 main nav ul li{
     margin-left: 3rem;
     text-transform:uppercase ;
-}
+  }
+
+main nav hr{
+  background-color:#adff2f ;
+  width: 50px;
+  height: 4px;
+  margin: 0 auto;
+  margin-top: .5rem;
+  border-radius: 20px;
+ }
 
   /*recenti*/
  .recenti{
@@ -237,9 +260,6 @@ main nav ul li{
     color: #76787d;
  }
 
- .recenti h3{
-   
- }
 
   /*recenti*/
 
@@ -286,6 +306,42 @@ main nav ul li{
 
   /*popolari*/
 
+  /*hover main*/
+  
+  .hover-img{
+    position: relative;
+  }
+
+  .hover-img i{
+    display: none;
+  }
+
+  .hover-img:hover i{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    display: block;
+    top: 50%;
+   left: 50%;
+   margin-left: -1.5rem;
+   margin-top: -1.5rem;
+  }
+
+  .hover-img:hover img{
+    filter: grayscale(.5);
+  }
+
+  .upgrade button:hover{
+    width: 280px;
+    height: 55px;
+  }
+  
+  main li a:hover{
+    color: white;
+  }
+  
+  /*hover main*/
+
 
  /*main*/
 
@@ -300,7 +356,7 @@ footer{
     align-items: center;
   
 
-}
+  }
 
 /*canzone-in-riproduzione*/
 .canzone-in-riproduzione{
