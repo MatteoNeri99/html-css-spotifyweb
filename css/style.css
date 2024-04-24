@@ -483,8 +483,7 @@ footer{
  .barra-volume{
   width: 100%;
   height: 5px;
-  align-self: center;
-  margin-top: .4rem;
+  margin-top:calc((.8rem / 2) + 2.5px);
   background-color: #76787d;
   border-radius: 20px;
  }
@@ -492,13 +491,38 @@ footer{
  .volume-in-ascolto{
   width:20% ;
   height: 5px;
-  align-self: center;
   margin-top: .4rem;
   background-color:white;
   border-radius: 20px;
  }
 
  /*volume*/
+
+ /*hover footer*/
+  
+   .container-album p:hover{
+    text-decoration: underline;
+   }
+
+   .container-font i:hover{
+    color: white;
+   }
+
+   .fa-circle-play:hover{
+    font-size: 2.2rem;
+   }
+
+   .barra-musica:hover .secondi-canzone{
+      width: 40%;
+     background-color:#adff2f;
+   }
+
+   .barra-volume:hover .volume-in-ascolto{
+    width: 30%;
+   background-color:#adff2f;
+ }
+
+ /*hover footer*/
 
  /*footer*/
 
